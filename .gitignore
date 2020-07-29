@@ -1,0 +1,10 @@
+/debian-cd/
+/extra/*
+/image/*
+/mirror/*
+/tmp/*
+
+!/extra/.README.md
+!/image/.README.md
+!/mirror/.README.md
+!/tmp/.README.md
