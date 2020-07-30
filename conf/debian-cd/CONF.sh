@@ -84,7 +84,7 @@ fi
 # This may be an url, or "default", which will make it use the default url
 # for the daily d-i builds. If not set, uses the official d-i images from
 # the Debian mirror.
-#export DI_WWW_HOME=default
+export DI_WWW_HOME=http://localhost:8080/dists/${CODENAME}/main/installer-amd64/current/images
 
 # Version number, "2.2 r0", "2.2 r1" etc.
 export DEBVERSION="10.0.0"
