@@ -87,7 +87,7 @@ fi
 export DI_WWW_HOME=http://localhost:8080/dists/${CODENAME}/main/installer-amd64/current/images
 
 # Version number, "2.2 r0", "2.2 r1" etc.
-export DEBVERSION="10.0.0"
+export DEBVERSION="${DEBIAN_RELEASE_VERSION}"
 
 # Official or non-official set.
 # NOTE: THE "OFFICIAL" DESIGNATION IS ONLY ALLOWED FOR IMAGES AVAILABLE
