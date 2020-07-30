@@ -63,7 +63,7 @@ export BASEDIR=`pwd`
 # export CDNAME=debian
 
 # Building $codename cd set ...
-export CODENAME=buster
+export CODENAME=${DEBIAN_RELEASE}
 
 # By default use Debian installer packages from $CODENAME
 if [ -z "$DI_CODENAME" ]; then
