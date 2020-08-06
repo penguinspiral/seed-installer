@@ -126,7 +126,7 @@ export MIRROR=/build/mirror
 export TDIR=/build/tmp/seed-installer
 
 # Path where the images will be written
-export OUT=/srv/mirror/debian-cd-test
+export OUT=/build/image
 
 # Where we keep the temporary apt stuff.
 # This cannot reside on an NFS mount.
