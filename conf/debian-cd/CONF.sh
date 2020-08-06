@@ -123,7 +123,7 @@ fi
 export MIRROR=/build/mirror
 
 # Path of the temporary directory
-export TDIR=/srv/mirror/tmp
+export TDIR=/build/tmp/seed-installer
 
 # Path where the images will be written
 export OUT=/srv/mirror/debian-cd-test
