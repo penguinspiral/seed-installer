@@ -120,7 +120,7 @@ fi
 #	      images, however. Also, if you are using an NFS partition for
 #	      some part of this, you must use this option.
 # Paths to the mirrors
-export MIRROR=/srv/mirror/debian
+export MIRROR=/build/mirror
 
 # Path of the temporary directory
 export TDIR=/srv/mirror/tmp
