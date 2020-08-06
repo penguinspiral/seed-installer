@@ -130,7 +130,7 @@ export OUT=/build/image
 
 # Where we keep the temporary apt stuff.
 # This cannot reside on an NFS mount.
-export APTTMP=/srv/mirror/tmp/apt
+export APTTMP=/build/tmp/seed-installer/apt
 
 # Do I want to have NONFREE merged in the CD set
 # export NONFREE=1
