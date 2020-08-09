@@ -474,7 +474,7 @@ export RESERVED_BLOCKS_HOOK=/build/hooks/reserved_blocks_hook.sh
 # The disc_finish hook. This will be called once a disc image is full,
 # just after the last package rollback but before the last bits of
 # cleanup are done on the temp disc tree
-#export DISC_FINISH_HOOK=/bin/true
+export DISC_FINISH_HOOK=/build/debian-cd/hooks/disc_finish_hook.sh
 
 # The disc_end hook. This will be called *right* at the end of the
 # image-making process in make_disc_trees.pl.
