@@ -193,7 +193,7 @@ export COPYLINK=1
 #export i386_MKISOFS="xorriso"
 #export i386_MKISOFS_OPTS="-as mkisofs -r -checksum_algorithm_iso md5,sha1"
 export amd64_MKISOFS="xorriso"
-export amd64_MKISOFS_OPTS="-as mkisofs -r -f -checksum_algorithm_iso md5,sha1"
+export amd64_MKISOFS_OPTS="-as mkisofs -r -f -checksum_algorithm_iso md5,sha1 -iso-level 3"
 
 # Keyring (defaults):
 #ARCHIVE_KEYRING_PACKAGE=debian-archive-keyring
