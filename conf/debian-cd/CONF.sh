@@ -280,7 +280,7 @@ export IMAGESUMS=1
 # be created for all images. One of the variables can be set to zero if
 # either iso or jigdo files are not wanted.
 # Replaces the old "DOJIGDO" setting with something much more flexible.
-#export MAXISOS=0
+export MAXISOS=1
 #export MAXJIGDOS=0
 
 # HTTP/FTP URL for directory where you intend to make the templates
