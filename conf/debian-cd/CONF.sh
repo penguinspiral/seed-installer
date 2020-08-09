@@ -376,8 +376,8 @@ export SNAPURL=Debian=http://snapshot.debian.org/archive/debian/SNAPDATETIME/
 # INSTALLER_CD=0: nothing special (default)
 # INSTALLER_CD=1: just add debian-installer (use TASK=debian-installer)
 # INSTALLER_CD=2: add d-i and base (use TASK=debian-installer+kernel)
-#export INSTALLER_CD=2
-#export TASK=debian-installer+kernel
+export INSTALLER_CD=2
+export TASK=debian-installer+kernel
 
 # Parameters to pass to kernel (or d-i) when the CD boots. Not currently
 # supported for all architectures.
