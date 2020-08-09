@@ -469,7 +469,7 @@ export WGET="wget $WGET_OPTS"
 # The reserved_blocks hook; if set, this script should print the
 # number of 2K blocks that need to be reserved for data to be added
 # *after* a disc tree is filled with packages.
-#export RESERVED_BLOCKS_HOOK=/bin/true
+export RESERVED_BLOCKS_HOOK=/build/hooks/reserved_blocks_hook.sh
 
 # The disc_finish hook. This will be called once a disc image is full,
 # just after the last package rollback but before the last bits of
