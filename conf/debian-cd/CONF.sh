@@ -192,8 +192,8 @@ export COPYLINK=1
 # USB stick. xorriso 0.6.5 and later has working support for this.
 #export i386_MKISOFS="xorriso"
 #export i386_MKISOFS_OPTS="-as mkisofs -r -checksum_algorithm_iso md5,sha1"
-#export amd64_MKISOFS="xorriso"
-#export amd64_MKISOFS_OPTS="-as mkisofs -r -checksum_algorithm_iso md5,sha1"
+export amd64_MKISOFS="xorriso"
+export amd64_MKISOFS_OPTS="-as mkisofs -r -f -checksum_algorithm_iso md5,sha1"
 
 # Keyring (defaults):
 #ARCHIVE_KEYRING_PACKAGE=debian-archive-keyring
