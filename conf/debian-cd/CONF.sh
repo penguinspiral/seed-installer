@@ -388,7 +388,7 @@ export KERNEL_PARAMS="DEBCONF_PRIORITY=critical DEBCONF_DEBUG=5 preseed/file=/cd
 
 # If set, limits the number of images to produce. The maximum
 # value of MAXISOS and MAXJIGDOS are limited to this setting.
-#export MAXCDS=1
+export MAXCDS=1
 
 # If set, overrides the boot picture used.
 #export SPLASHPNG="$BASEDIR/data/$CODENAME/splash-img.png"
