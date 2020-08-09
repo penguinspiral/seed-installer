@@ -196,15 +196,15 @@ export amd64_MKISOFS="xorriso"
 export amd64_MKISOFS_OPTS="-as mkisofs -r -f -checksum_algorithm_iso md5,sha1 -iso-level 3"
 
 # Keyring (defaults):
-#ARCHIVE_KEYRING_PACKAGE=debian-archive-keyring
+ARCHIVE_KEYRING_PACKAGE=debian-archive-keyring
 # The path to the keyring file relative to $TDIR/archive-keyring/
-#ARCHIVE_KEYRING_FILE=usr/share/keyrings/debian-archive-keyring.gpg
+ARCHIVE_KEYRING_FILE=usr/share/keyrings/debian-archive-keyring.gpg
 
 # By default we use debootstrap --no-check-gpg to find out the minimal set
 # of packages because there's no reason to not trust the local mirror. But
 # you can be paranoid and then you need to indicate the keyring to use to
 # validate the mirror.
-#export DEBOOTSTRAP_OPTS="--keyring $TDIR/archive-keyring/$ARCHIVE_KEYRING_FILE"
+export DEBOOTSTRAP_OPTS="--keyring $TDIR/archive-keyring/$ARCHIVE_KEYRING_FILE"
 
 # ISOLinux support for multiboot on CD1 for i386
 export ISOLINUX=1
