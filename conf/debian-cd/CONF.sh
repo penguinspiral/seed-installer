@@ -179,7 +179,7 @@ export CONTRIB=1
 # Use this to force copying the files instead of symlinking or hardlinking
 # them. This is useful if your destination directories are on a different
 # partition than your source files.
-# export COPYLINK=1
+export COPYLINK=1
 
 # Options
 # export MKISOFS=mkisofs
