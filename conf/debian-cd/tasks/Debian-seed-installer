@@ -1,0 +1,11 @@
+#include <debian-installer+kernel>
+#include <forcd1>
+#include <task-essential-light>
+
+git
+gnupg
+grub-common
+lsb-release
+puppet
+puppet-master
+r10k
