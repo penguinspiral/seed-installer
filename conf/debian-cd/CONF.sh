@@ -150,12 +150,12 @@ export CONTRIB=1
 # If you have a $MIRROR/dists/$CODENAME/local/binary-$ARCH dir with 
 # local packages that you want to put on the CD set then
 # uncomment the following line 
-# export LOCAL=1
+export LOCAL=1
 
 # If your local packages are not under $MIRROR, but somewhere else, 
 # you can uncomment this line and edit to to point to a directory
 # containing dists/$CODENAME/local/binary-$ARCH
-# export LOCALDEBS=/home/joey/debian/va/debian
+export LOCALDEBS=/build/local/mirror
 
 # Where to find the security patches.  This directory should be the
 # top directory of a security.debian.org mirror.
