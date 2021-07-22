@@ -34,6 +34,10 @@ function build() {
   printf "\n=== Make distclean ===\n"
   make distclean
 
+  printf "\n=== Importing local mirror GPG keys ===\n"
+  mkdir --parents "${APTTMP}/${DEBIAN_RELEASE}-${ARCHES}/apt/trusted.gpg.d"
+  rsync --ignore-missing-args /build/local/keys/*.gpg "${APTTMP}/${DEBIAN_RELEASE}-${ARCHES}/apt/trusted.gpg.d/";
+
   printf "\n=== Make status ===\n"
   make status
 
