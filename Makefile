@@ -17,7 +17,7 @@ iso:
 		   --mount type=bind,source=$(LOCAL_MIRROR),target=$(WORKDIR)/local/mirror,readonly \
 		   --mount type=bind,source=$(LOCAL_KEYS),target=$(WORKDIR)/local/keys,readonly \
 		   --mount type=bind,source=$(EXTRA),target=$(WORKDIR)/extra,readonly \
-                   --mount type=bind,source=$(IMAGES),target=$(WORKDIR)/image \
+                   --mount type=bind,source=$(IMAGE),target=$(WORKDIR)/image \
                    --mount type=bind,source=$(TMP),target=$(WORKDIR)/tmp \
 		   --user $(shell id -u "${USER}"):$(shell id -g "${USER}") \
 		   penguinspiral/seed-installer:buster-slim
