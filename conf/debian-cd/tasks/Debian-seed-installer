@@ -6,6 +6,6 @@ git
 gnupg
 grub-common
 lsb-release
-puppet
-puppet-master
+puppet-agent
+puppetserver
 r10k
