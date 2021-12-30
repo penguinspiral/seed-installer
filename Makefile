@@ -1,6 +1,6 @@
 .PHONY: iso clean distclean
 
-DEBIAN_RELEASE = "buster"
+DEBIAN_RELEASE = "bullseye"
 
 WORKDIR      = /build
 MIRROR       = "$(shell pwd)/mirror"
