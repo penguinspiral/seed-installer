@@ -20,6 +20,7 @@ iso:
                    --mount type=bind,source=$(IMAGE),target=$(WORKDIR)/image \
                    --mount type=bind,source=$(TMP),target=$(WORKDIR)/tmp \
 		   --user $(shell id -u "${USER}"):$(shell id -g "${USER}") \
+                   --rm \
 		   penguinspiral/seed-installer:bullseye-slim
 
 clean:
