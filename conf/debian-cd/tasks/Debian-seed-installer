@@ -2,10 +2,4 @@
 #include <forcd1>
 #include <task-essential-light>
 
-git
-gnupg
-grub-common
-lsb-release
-puppet-agent
-puppetserver
-r10k
+puppet-release
