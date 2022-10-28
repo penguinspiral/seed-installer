@@ -381,7 +381,7 @@ export TASK=debian-installer+kernel
 
 # Parameters to pass to kernel (or d-i) when the CD boots. Not currently
 # supported for all architectures.
-export KERNEL_PARAMS="DEBCONF_PRIORITY=critical DEBCONF_DEBUG=5 preseed/file=/cdrom/preseed.cfg debian-installer/country=US debian-installer/language=en console-keymaps-at/keymap=us keyboard-configuration/xkb-keymap=us cdrom-detect/load_media=true FACTER_ROLE=seed"
+export KERNEL_PARAMS="FACTER_ROLE=seed DEBCONF_DEBUG=5 auto-install/enable=true preseed/file=/cdrom/preseed.cfg"
 
 # Default desktop (currently only used by win32-loader)
 #export DESKTOP=kde
